@@ -11,11 +11,10 @@
 - (void)print:(NSString *)name, ... {
     va_list w;
     va_start(w, name);
-    NSLog(@"%@",name);
-    NSString* string = va_arg(w, id);
-    while (string) {
-        NSLog(@"%@",string);
-        string = va_arg(w, id);
+    NSString* hen = va_arg(w, id);
+    while (hen) {
+        NSLog(@"%@",hen);
+        hen = va_arg(w, id);
     }
     va_end(w);
 }

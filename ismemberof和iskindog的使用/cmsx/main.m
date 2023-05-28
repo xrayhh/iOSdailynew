@@ -15,7 +15,7 @@ int main(int argc, const char * argv[]) {
 //               BOOL res10 = [[NSString class] isKindOfClass:[NSObject class]];
 //
 //               NSLog(@"%d %d %d",res1, res3, res10);
-               
+//
                
                Person *person = [[Person alloc] init];
 //               BOOL res5 = [[Person class] isKindOfClass:[NSObject class]];

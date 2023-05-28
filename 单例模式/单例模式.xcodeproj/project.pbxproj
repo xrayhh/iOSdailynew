@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F22525532A126BC400030D3B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F22525522A126BC400030D3B /* main.m */; };
-		F225255B2A126BE900030D3B /* FkSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = F225255A2A126BE900030D3B /* FkSingleton.m */; };
+		F29555062A1E410F009F2BD0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F29555052A1E410F009F2BD0 /* main.m */; };
+		F295550E2A1E4139009F2BD0 /* FKUser.m in Sources */ = {isa = PBXBuildFile; fileRef = F295550D2A1E4139009F2BD0 /* FKUser.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		F225254D2A126BC400030D3B /* CopyFiles */ = {
+		F29555002A1E410F009F2BD0 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -24,14 +24,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		F225254F2A126BC400030D3B /* 单例模式 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "单例模式"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F22525522A126BC400030D3B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F22525592A126BE900030D3B /* FkSingleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FkSingleton.h; sourceTree = "<group>"; };
-		F225255A2A126BE900030D3B /* FkSingleton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FkSingleton.m; sourceTree = "<group>"; };
+		F29555022A1E410F009F2BD0 /* 单例模式 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "单例模式"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F29555052A1E410F009F2BD0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F295550C2A1E4139009F2BD0 /* FKUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FKUser.h; sourceTree = "<group>"; };
+		F295550D2A1E4139009F2BD0 /* FKUser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FKUser.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F225254C2A126BC400030D3B /* Frameworks */ = {
+		F29554FF2A1E410F009F2BD0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,28 +41,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F22525462A126BC400030D3B = {
+		F29554F92A1E410F009F2BD0 = {
 			isa = PBXGroup;
 			children = (
-				F22525512A126BC400030D3B /* 单例模式 */,
-				F22525502A126BC400030D3B /* Products */,
+				F29555042A1E410F009F2BD0 /* 单例模式 */,
+				F29555032A1E410F009F2BD0 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		F22525502A126BC400030D3B /* Products */ = {
+		F29555032A1E410F009F2BD0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F225254F2A126BC400030D3B /* 单例模式 */,
+				F29555022A1E410F009F2BD0 /* 单例模式 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F22525512A126BC400030D3B /* 单例模式 */ = {
+		F29555042A1E410F009F2BD0 /* 单例模式 */ = {
 			isa = PBXGroup;
 			children = (
-				F22525522A126BC400030D3B /* main.m */,
-				F22525592A126BE900030D3B /* FkSingleton.h */,
-				F225255A2A126BE900030D3B /* FkSingleton.m */,
+				F29555052A1E410F009F2BD0 /* main.m */,
+				F295550C2A1E4139009F2BD0 /* FKUser.h */,
+				F295550D2A1E4139009F2BD0 /* FKUser.m */,
 			);
 			path = "单例模式";
 			sourceTree = "<group>";
@@ -70,13 +70,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F225254E2A126BC400030D3B /* 单例模式 */ = {
+		F29555012A1E410F009F2BD0 /* 单例模式 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F22525562A126BC400030D3B /* Build configuration list for PBXNativeTarget "单例模式" */;
+			buildConfigurationList = F29555092A1E410F009F2BD0 /* Build configuration list for PBXNativeTarget "单例模式" */;
 			buildPhases = (
-				F225254B2A126BC400030D3B /* Sources */,
-				F225254C2A126BC400030D3B /* Frameworks */,
-				F225254D2A126BC400030D3B /* CopyFiles */,
+				F29554FE2A1E410F009F2BD0 /* Sources */,
+				F29554FF2A1E410F009F2BD0 /* Frameworks */,
+				F29555002A1E410F009F2BD0 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -84,24 +84,24 @@
 			);
 			name = "单例模式";
 			productName = "单例模式";
-			productReference = F225254F2A126BC400030D3B /* 单例模式 */;
+			productReference = F29555022A1E410F009F2BD0 /* 单例模式 */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		F22525472A126BC400030D3B /* Project object */ = {
+		F29554FA2A1E410F009F2BD0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					F225254E2A126BC400030D3B = {
+					F29555012A1E410F009F2BD0 = {
 						CreatedOnToolsVersion = 14.3;
 					};
 				};
 			};
-			buildConfigurationList = F225254A2A126BC400030D3B /* Build configuration list for PBXProject "单例模式" */;
+			buildConfigurationList = F29554FD2A1E410F009F2BD0 /* Build configuration list for PBXProject "单例模式" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -109,30 +109,30 @@
 				en,
 				Base,
 			);
-			mainGroup = F22525462A126BC400030D3B;
-			productRefGroup = F22525502A126BC400030D3B /* Products */;
+			mainGroup = F29554F92A1E410F009F2BD0;
+			productRefGroup = F29555032A1E410F009F2BD0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F225254E2A126BC400030D3B /* 单例模式 */,
+				F29555012A1E410F009F2BD0 /* 单例模式 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F225254B2A126BC400030D3B /* Sources */ = {
+		F29554FE2A1E410F009F2BD0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F225255B2A126BE900030D3B /* FkSingleton.m in Sources */,
-				F22525532A126BC400030D3B /* main.m in Sources */,
+				F29555062A1E410F009F2BD0 /* main.m in Sources */,
+				F295550E2A1E4139009F2BD0 /* FKUser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		F22525542A126BC400030D3B /* Debug */ = {
+		F29555072A1E410F009F2BD0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -190,7 +190,7 @@
 			};
 			name = Debug;
 		};
-		F22525552A126BC400030D3B /* Release */ = {
+		F29555082A1E410F009F2BD0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -241,7 +241,7 @@
 			};
 			name = Release;
 		};
-		F22525572A126BC400030D3B /* Debug */ = {
+		F295550A2A1E410F009F2BD0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -249,7 +249,7 @@
 			};
 			name = Debug;
 		};
-		F22525582A126BC400030D3B /* Release */ = {
+		F295550B2A1E410F009F2BD0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -260,25 +260,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F225254A2A126BC400030D3B /* Build configuration list for PBXProject "单例模式" */ = {
+		F29554FD2A1E410F009F2BD0 /* Build configuration list for PBXProject "单例模式" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F22525542A126BC400030D3B /* Debug */,
-				F22525552A126BC400030D3B /* Release */,
+				F29555072A1E410F009F2BD0 /* Debug */,
+				F29555082A1E410F009F2BD0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F22525562A126BC400030D3B /* Build configuration list for PBXNativeTarget "单例模式" */ = {
+		F29555092A1E410F009F2BD0 /* Build configuration list for PBXNativeTarget "单例模式" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F22525572A126BC400030D3B /* Debug */,
-				F22525582A126BC400030D3B /* Release */,
+				F295550A2A1E410F009F2BD0 /* Debug */,
+				F295550B2A1E410F009F2BD0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = F22525472A126BC400030D3B /* Project object */;
+	rootObject = F29554FA2A1E410F009F2BD0 /* Project object */;
 }
